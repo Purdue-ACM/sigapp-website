@@ -1,75 +1,106 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>SIGAPP - Powering the new web 2.0</title>
-<style type="text/css">
-<!--
-.style7 {
-	font-size: 12px;
-	color: #CC0000;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-.style8 {font-size: 12px; color: #FFFFFF; font-family: Georgia, "Times New Roman", Times, serif; }
-.style9 {
-	font-size: 36px;
-	color: #FFFFFF;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-weight: bold;
-}
-.style11 {color: #FFFFFF}
--->
-</style>
-<script type="text/javascript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-//-->
-</script>
-</head>
+  <title>Sigapp Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
 
-<body background="background_page.gif">
-<table width="902" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="902"><div align="right"><img src="logot.gif" alt="" width="855" height="150" /></div></td>
-  </tr>
-  <tr>
-    <td><img src="article_dogear.gif" width="902" height="55" /></td>
-  </tr>
-  <tr>
-    <td height="1820" bgcolor="#FFFFFF">
-			<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-	      <tr>
-	        <td width="6%" height="1820" bgcolor="#000000"><p>&nbsp;</p>
-	          <p>&nbsp;</p>
-	          <p>&nbsp;</p>
-	          <p>&nbsp;</p>
-	          <p>&nbsp;</p>
-					</td>
-	        <td width="94%">
-						<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-		          <tr>
-		            <td height="1810"><p align="center" class="style7"><img src="philosophy.gif" alt="philosophy" width="790" height="622" /></p>
-		              <p align="center" class="style7"><img src="whoweare.gif" alt="who we are?" width="791" height="171" /></p>
-		              <p align="center" class="style7"><img src="whyweare.gif" alt="why we are?" width="784" height="219" /></p>
-		              <p align="center" class="style7"><img src="howweshall.gif" alt="how we shall?" width="790" height="291" /></p>
-		              <p align="center" class="style7"><img src="futureprospects.gif" alt="future prospects" width="775" height="170" /></p>
-		              <p align="center" class="style7"><img src="participateb.gif" alt="participate" width="763" height="223" border="0" usemap="#MapMap" /></p>
-		              <map name="MapMap" id="MapMap">
-		                <area shape="rect" coords="351,183,615,214" href="mailto:sigapp@acm.cs.purdue.edu" target="_parent" />
-		              </map>
-								</td>
-		          </tr>
-		        </table>
-					</td>
-	      </tr>
-	    </table>
-		</td>
-  </tr>
-</table>
-<p align="center" class="style8">Last updated 9/15/2016 | A Registered ACM Purdue's Special Interest Group</p>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ACM SIGAPP</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <!-- <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <!-- <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p> -->
+    </div>
+    <div class="col-sm-8 text-left">
+      <h1>Welcome</h1>
+      <p>This site is under construction.</p>
+      <hr>
+      <h3>Relevant links</h3>
+      <p>Join our <a href="https://www.facebook.com/groups/PurdueACMSigApp/">Facebook Group</a></p>
+			<p>Check out tutorials and other info in our <a href="https://drive.google.com/drive/folders/0ByBsXZAwFI0qSzY4NGFWeUZqeEU">Google Drive folder</a></p>
+			<p>Join our Slack group <a href="https://purdueacmsigapp.slack.com/">here</a></p>
+			<p>Find our old projects on <a href="https://github.com/Purdue-ACM-Sigapp">Github</a></p>
+			<hr>
+			<h3>Contact us</h3>
+			<p>David Tschida, President <a href="mailto:dt+sigapp@purdue.edu">email</a></p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <!-- <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Copyright Purdue ACM Sigapp 2016</p>
+</footer>
+
 </body>
 </html>
