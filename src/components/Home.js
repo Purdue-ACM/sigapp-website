@@ -16,6 +16,7 @@ const Home = (props) => {
             <hr />
             <h3>Relevant links</h3>
             <p>Check out tutorials and other info in our <a href='https://drive.google.com/drive/folders/0ByBsXZAwFI0qSzY4NGFWeUZqeEU'>Google Drive folder</a></p>
+            <p>Come <a href='https://acm-sigapp-heroku-slack.herokuapp.com/'>join us on slack</a></p>
             <hr/>
             <h3>Contact us</h3>
             <p>David Tschida, President <a href='mailto:dt+sigapp@purdue.edu'>email</a></p>
