@@ -1,6 +1,9 @@
+import React from 'react';
+import App from './App';
+
 const routes = [
-  {path: '/', action: () => <Home />},
-  {path: '/tutorials', action: () => <Tutorials />}
+  {path: '/', action: () => <App />},
+  //{path: '/tutorials', action: () => <Tutorials />}
 ];
 
 export default routes;
