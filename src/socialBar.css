@@ -1,0 +1,13 @@
+.navbar-nav .github a {
+  padding: 12px;
+}
+.navbar-right li {
+  background-color: #9d9d9d;
+  margin: 5px;
+  border-radius: 50%;
+  
+}
+
+.navbar-right li:hover {
+  background-color: #d1d1e0;
+}
