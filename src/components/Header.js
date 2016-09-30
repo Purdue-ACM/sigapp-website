@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import SocialBar from './SocialBar';
 import '../css/header.css';
 
-const Header = (props) => {
+const Header = ({active}) => {
   return (
     <nav className='navbar navbar-inverse'>
       <div className='container-fluid'>
@@ -12,11 +12,12 @@ const Header = (props) => {
             <span className='icon-bar'></span>
             <span className='icon-bar'></span>
           </button>
-          <a className='navbar-brand' href='#'>ACM SIGAPP</a>
+          <a className='navbar-brand' href='/'>ACM SIGAPP</a>
         </div>
         <div className='collapse navbar-collapse' id='myNavbar'>
           <ul className='nav navbar-nav'>
-            <li className='active'><a href='#'>Home</a></li>
+            <li className={(active == 'home') ? 'active' : ''}><a href='/'>Home</a></li>
+            <li className={(active == 'tutorials') ? 'active' : ''}><a href='/tutorials'>Tutorials</a></li>
           </ul>
           <SocialBar />        
         </div>
@@ -24,4 +25,9 @@ const Header = (props) => {
     </nav>
   )
 }
+
+Header.propTypes = {
+  active: PropTypes.string.isRequired,
+}
+
 export default Header;

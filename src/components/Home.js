@@ -6,7 +6,7 @@ import '../css/home.css';
 const Home = (props) => {
   return (
     <div>
-      <Header />
+      <Header active='home'/>
       <div className='container-fluid text-center'>
         <div className='row content'>
           <div className='col-sm-2 sidenav'>
