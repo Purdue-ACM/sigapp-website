@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer'
-import '../home.css';
+import '../css/home.css';
 
 const Home = (props) => {
   return (

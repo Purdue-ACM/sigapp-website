@@ -2,7 +2,7 @@ import React from 'react';
 import FacebookLogo from '../images/facebook.svg';
 import GithubLogo from '../images/github.svg';
 import SlackLogo from '../images/slack.svg';
-import '../socialBar.css';
+import '../css/socialBar.css';
 
 const SocialBar = (props) => {
   return (
