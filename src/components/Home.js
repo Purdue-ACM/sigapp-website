@@ -20,8 +20,8 @@ const Home = (props) => {
             <hr/>
             <h3>Contact us</h3>
             <p>David Tschida, President <a href='mailto:dt+sigapp@purdue.edu'>email</a></p>
-            <p>Jeff Hughes, Vice President
-            <p>Michael Vieck, Vice President
+            <p>Jeff Hughes, Vice President</p>
+            <p>Michael Vieck, Vice President</p>
           </div>
           <iframe src="https://calendar.google.com/calendar/embed?src=3saj71dvb58gl7hh2bl3g10d08%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
           <div className='col-sm-2 sidenav'>
