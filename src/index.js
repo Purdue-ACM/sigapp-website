@@ -1,9 +1,24 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import router from './router';
+import routes from './routes'
+import { createBrowserHistory } from 'history';
 import './index.css';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+const history = createBrowserHistory();
+
+function renderComponent(component) {
+  ReactDOM.render(component, document.getElementById('root'));
+}
+
+function render(location) {
+  router.resolve(routes, location) 
+    .then(renderComponent)
+    .catch(error => {
+      console.log(error);
+      router.resolve(routes, {...location, error})
+    })
+    .then(renderComponent);
+}
+
+render(history.location)
+history.listen(render);

@@ -1,8 +1,3 @@
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
@@ -11,26 +6,6 @@
   padding-top: 20px;
   background-color: #f1f1f1;
   height: 100%;
-}
-.navbar-nav .github a {
-  padding: 12px;
-}
-.navbar-right li {
-  background-color: #9d9d9d;
-  margin: 5px;
-  border-radius: 50%;
-  
-}
-
-.navbar-right li:hover {
-  background-color: #d1d1e0;
-}
-
-/* Set black background color, white text and some padding */
-footer {
-  background-color: #555;
-  color: white;
-  padding: 15px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */

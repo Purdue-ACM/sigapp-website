@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialBar from './SocialBar';
+import '../css/header.css';
 
 const Header = (props) => {
   return (
