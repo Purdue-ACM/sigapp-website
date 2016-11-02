@@ -20,8 +20,18 @@ const Home = (props) => {
             <hr/>
             <h3>Contact us</h3>
             <p>David Tschida, President <a href='mailto:dt+sigapp@purdue.edu'>email</a></p>
+            <p>Jeff Hughes, Vice President
+            <p>Michael Vieck, Vice President
           </div>
+          <iframe src="https://calendar.google.com/calendar/embed?src=3saj71dvb58gl7hh2bl3g10d08%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
           <div className='col-sm-2 sidenav'>
+            <h4>Purdue Laundry App</h4>
+            <p>Tired of having to go to the laundry room, only to find out that
+            there's no space available? The Purdue Laundry app solves that by
+            having all the details of your dorm's laundry room in the palm of
+            your hand! You can even set timers for each machine you are using
+            to be alerted when they are done.</p>
+            <a href='https://play.google.com/store/apps/details?id=xyz.jhughes.laundry&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
           </div>
         </div>
       </div>
