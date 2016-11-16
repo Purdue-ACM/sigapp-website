@@ -7,6 +7,8 @@ import driveLogo from '../images/gdrive256.png';
 import slackLogo from '../images/slack256.png';
 import facebookLogo from '../images/facebook256.png';
 import githubLogo from '../images/github256.png';
+import laundryIcon from '../images/laundryicon.png';
+import playBadge from '../images/playbadge.png';
 
 const Home = (props) => {
   return (
@@ -29,7 +31,7 @@ const Home = (props) => {
                 <div className="col-sm-12">
                   <h2>Tutorials</h2>
                   <table className="table">
-                    <caption>Meeting schedule and past tutorials</caption>
+                    <caption>Meeting schedule and past tutorials: content for most tutorials can be found in our Google Drive.</caption>
                     <thead>
                       <tr>
                         <th className="col-xs-2">Date</th>
@@ -45,6 +47,10 @@ const Home = (props) => {
                       <TutorialEntry date="09/29/2016" name="Android: User Input and Text Boxes" link=""/>
                       <TutorialEntry date="10/04/2016" name="Android: RecyclerView" link=""/>
                       <TutorialEntry date="10/06/2016" name="Node Preparation" link=""/>
+                      <TutorialEntry date="10/11/2016" name="CANCELED (Hello World Hack)" link=""/>
+                      <TutorialEntry date="10/13/2016" name="CANCELED (Hello World Hack)" link=""/>
+                      <TutorialEntry date="10/14/2016" name="Hello World Tutorial: Android + APIs" link="https://www.gitbook.com/book/vidia/hello-android/details"/>
+                      <TutorialEntry date="10/14/2016" name="Hello World Tutorial: Node.js + APIs" link="https://jwlehman93.gitbooks.io/hello-world-server/content/"/>
                       <TutorialEntry date="10/18/2016" name="Retrofit and APIs" link=""/>
                       <TutorialEntry date="10/20/2016" name="Project Brainstorming" link=""/>
                       <TutorialEntry date="10/25/2016" name="Project Planning" link=""/>
@@ -52,6 +58,8 @@ const Home = (props) => {
                       <TutorialEntry date="11/01/2016" name="Adding users to the app" link=""/>
                       <TutorialEntry date="11/03/2016" name="Users and authentication in Node.js" link=""/>
                       <TutorialEntry date="11/08/2016" name="Rooms and Token Auth" link=""/>
+                      <TutorialEntry date="11/10/2016" name="Project Work Day" link=""/>
+                      <TutorialEntry date="11/15/2016" name="CANCELED" link=""/>
                     </tbody>
                   </table>
                 </div>
@@ -112,6 +120,7 @@ const Home = (props) => {
                   <h2>Our projects</h2>
                 </div>
                 <div className="col-xs-3">
+                  <img alt="Purdue Laundry Android Icon" className="img-responsive" src={laundryIcon}/>
                   <h4>Purdue Laundry App</h4>
                   <p>
                     The Purdue Laundry app shows the details
@@ -120,7 +129,7 @@ const Home = (props) => {
                     each machine you are using to be alerted
                     when they are done.</p>
                   <a href='https://play.google.com/store/apps/details?id=xyz.jhughes.laundry&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                    <img alt='Get it on Google Play' className="img-responsive" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+                    <img alt='Get it on Google Play' className="img-responsive" src={playBadge}/>
                   </a>
                   <a href="https://github.com/Purdue-ACM-SIGAPP/PurdueLaundry">Github</a>
                 </div>
@@ -128,12 +137,14 @@ const Home = (props) => {
               <div className="row">
                 <div className="col-sm-4">
                   <div className="row content">
-                    <h4>Meeting Schedule</h4>
-                    <p>
-                      We meet every Tuesday and Thursday in Lawson Hall room B148.
-                      Most meetings consist of tutorials on topics related to
-                      Android and server development.
-                    </p>
+                    <div className="col-sm-4">
+                      <h4>Meeting Schedule</h4>
+                      <p>
+                        We meet every Tuesday and Thursday in Lawson Hall room B148.
+                        Most meetings consist of tutorials on topics related to
+                        Android and server development.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-sm-8">
