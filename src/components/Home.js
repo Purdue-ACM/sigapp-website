@@ -40,26 +40,9 @@ const Home = (props) => {
                       </tr>
                     </thead>
                     <tbody>
-                      <TutorialEntry date="09/20/2016" name="Intro to Sigapp" link="https://docs.google.com/presentation/d/1hqAYyQq97wLq10yV3mApBfuyhXOmUAOS4i3g-zZV3io/edit?usp=sharing"/>
-                      <TutorialEntry date="09/22/2016" name="Git Presentation" link=""/>
-                      <TutorialEntry date="09/27/2016" name="Pre-Android Prep" link=""/>
-                      <TutorialEntry date="09/27/2016" name="Intro to Android" link=""/>
-                      <TutorialEntry date="09/29/2016" name="Android: User Input and Text Boxes" link=""/>
-                      <TutorialEntry date="10/04/2016" name="Android: RecyclerView" link=""/>
-                      <TutorialEntry date="10/06/2016" name="Node Preparation" link=""/>
-                      <TutorialEntry date="10/11/2016" name="CANCELED (Hello World Hack)" link=""/>
-                      <TutorialEntry date="10/13/2016" name="CANCELED (Hello World Hack)" link=""/>
-                      <TutorialEntry date="10/14/2016" name="Hello World Tutorial: Android + APIs" link="https://www.gitbook.com/book/vidia/hello-android/details"/>
-                      <TutorialEntry date="10/14/2016" name="Hello World Tutorial: Node.js + APIs" link="https://jwlehman93.gitbooks.io/hello-world-server/content/"/>
-                      <TutorialEntry date="10/18/2016" name="Retrofit and APIs" link=""/>
-                      <TutorialEntry date="10/20/2016" name="Project Brainstorming" link=""/>
-                      <TutorialEntry date="10/25/2016" name="Project Planning" link=""/>
-                      <TutorialEntry date="10/27/2016" name="Feature Lists" link=""/>
-                      <TutorialEntry date="11/01/2016" name="Adding users to the app" link=""/>
-                      <TutorialEntry date="11/03/2016" name="Users and authentication in Node.js" link=""/>
-                      <TutorialEntry date="11/08/2016" name="Rooms and Token Auth" link=""/>
-                      <TutorialEntry date="11/10/2016" name="Project Work Day" link=""/>
-                      <TutorialEntry date="11/15/2016" name="CANCELED" link=""/>
+                      <TutorialEntry date="N/A" name="All Tutorials are on Google Drive GitHub!" link=""/>
+                      <TutorialEntry date="N/A" name="Google Drive:" link="https://drive.google.com/drive/folders/0ByBsXZAwFI0qSzY4NGFWeUZqeEU?usp=sharing"/>
+                      <TutorialEntry date="N/A" name="GitHub:" link="https://github.com/Purdue-ACM-SIGAPP/Fall-2017-Tutorials"/>
                     </tbody>
                   </table>
                 </div>
@@ -110,8 +93,7 @@ const Home = (props) => {
               <div className="row">
                 <div className="col-sm-12">
                   <h2>Contact us</h2>
-                  <p>David Tschida, President <a href='mailto:dt+sigapp@purdue.edu'>email</a></p>
-                  <p>Jeff Hughes, Vice President</p>
+                  <p>Jeff Hughes, Vice President <a href='mailto:hughe127@purdue.edu'>email</a></p>
                   <p>Michael Vieck, Vice President</p>
                 </div>
               </div>
@@ -140,7 +122,7 @@ const Home = (props) => {
                     <div className="col-sm-4">
                       <h4>Meeting Schedule</h4>
                       <p>
-                        We meet every Tuesday and Thursday in Lawson Hall room B148.
+                        We meet every Tuesday and Thursday in Lawson Hall room B160.
                         Most meetings consist of tutorials on topics related to
                         Android and server development.
                       </p>
